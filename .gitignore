@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Excel / Spreadsheet temporary files
+# Importante: Excel crea archivos ocultos que empiezan por ~$ cuando los abres
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+~$*.csv
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Local configuration files (si creamos un .env para secretos más adelante)
+.env
+
+# MacOS files
+.DS_Store
